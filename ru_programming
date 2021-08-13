@@ -1,18 +1,5 @@
 // Extension layer for programming
-// Usage: CAPS+key
-//
-// To activate, run:
-//
-// xkbcomp <file> :0
-//
 // (Redirect actions are necessary only because of IntelliJ IDEA; otherwise, simple mappings work fine)
-
-xkb_keymap {
-  xkb_keycodes  { include "evdev+aliases(qwerty)" };
-  xkb_types     { include "complete" };
-  xkb_compat    { include "complete" };
-  xkb_geometry  { include "pc(pc104)" };
-
 
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
 // │     │     │     │     │     │     │     │     │     │     │     │     │     ┃ ⌫       ┃
@@ -259,4 +246,3 @@ xkb_keymap {
     };
 
   };
-};
