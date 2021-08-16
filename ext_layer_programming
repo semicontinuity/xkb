@@ -232,7 +232,7 @@ xkb_keymap {
     };
     key <AC04> {
         type= "THREE_LEVEL",
-        symbols[Group1]= [               f,               f,     equal ],
+        symbols[Group1]= [               f,               F,     equal ],
         symbols[Group2]= [     Cyrillic_a,     Cyrillic_A,       equal ],
         actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<AE12>,clearmods=LevelThree) ]
     };

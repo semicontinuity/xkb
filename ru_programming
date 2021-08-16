@@ -8,7 +8,7 @@
 // ┃ Enter ┃  (  │  )  │  <  │  >  │  -  │ PgUp│ Home│ Up  │ End │ Del │     │     ┃ Enter ┃
 // ┃ Tab ↹ ┃  Q  │  W  │  E  │  R  │  T  │  Y  │  U  │  I  │  O  │  P  │     │     ┃   ⏎   ┃
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
-// ┃        ┃ ^A  │  1  │  0  │  =  │  +  │ PgDn│ Left│ Down│Right│BkSpc│ Ins │     ┃      ┃
+// ┃        ┃  _  │  1  │  0  │  =  │  +  │ PgDn│ Left│ Down│Right│BkSpc│ Ins │     ┃      ┃
 // ┃ AltGr⇬ ┃  A  │  S  │  D  │  F  │  G  │  H  │  J  │  K  │  L  │  ;: │ '"  │ \ | ┃      ┃
 // ┣━━━━━━━━┻━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┲━━━┷━━━━━┻━━━━━━┫
 // ┃          ┃ ^Z  │ ^X  │ ^C  │ ^V  │  *  │  !  │  {  │  }  │  [  │  ]  ┃                ┃
@@ -36,12 +36,6 @@
 
 
     // Ctrl+C, etc
-    key <AC01> {
-        type= "THREE_LEVEL",
-        symbols[Group1]= [               a,               A, a ],
-        symbols[Group2]= [     Cyrillic_ef,     Cyrillic_EF, Cyrillic_ef ],
-        actions[Group1]= [      NoAction(),      NoAction(), Redirect(key=<AC01>,mods=Control,clearmods=LevelThree) ]
-    };
     key <AB01> {
         type= "THREE_LEVEL",
         symbols[Group1]= [               z,               Z, z ],
@@ -158,26 +152,22 @@
     key <AD07> {
         type= "THREE_LEVEL",
         symbols[Group1]= [               u,               U,     Home ],
-        symbols[Group2]= [   Cyrillic_ghe,   Cyrillic_GHE,     Home ],
+        symbols[Group2]= [    Cyrillic_ghe,    Cyrillic_GHE,     Home ],
         actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<HOME>,clearmods=LevelThree) ]
     };
     key <AD09> {
         type= "THREE_LEVEL",
         symbols[Group1]= [               o,               O,     End ],
-        symbols[Group2]= [      Cyrillic_shcha,      Cyrillic_SHCHA,     End ],
+        symbols[Group2]= [  Cyrillic_shcha,  Cyrillic_SHCHA,     End ],
         actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<END>,clearmods=LevelThree) ]
     };
 
     // Enter, Ins, Del, Backspace
     key <TAB> {
         type= "THREE_LEVEL",
-        symbols[Group1]= [           Tab,        ISO_Left_Tab,   Return ]
+        symbols[Group1]= [           Tab,      ISO_Left_Tab,     Return ],
+        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<RTRN>,clearmods=LevelThree) ]
     };
-//    key <SPCE> {
-//        type= "THREE_LEVEL",
-//        symbols[Group1]= [           space,           space,     Return ],
-//        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<RTRN>,clearmods=LevelThree) ]
-//    };
     key <AD10> {
         type= "THREE_LEVEL",
         symbols[Group1]= [               p,               P,     Delete ],
@@ -198,7 +188,7 @@
     };
 
 
-    // Common chars: - * ! =
+    // Common chars: - * ! = _
     key <AD05> {
         type= "THREE_LEVEL",
         symbols[Group1]= [               t,               T,     minus ],
@@ -219,7 +209,7 @@
     };
     key <AC04> {
         type= "THREE_LEVEL",
-        symbols[Group1]= [               f,               f,     equal ],
+        symbols[Group1]= [               f,               F,     equal ],
         symbols[Group2]= [     Cyrillic_a,     Cyrillic_A,       equal ],
         actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<AE12>,clearmods=LevelThree) ]
     };
@@ -228,6 +218,12 @@
         symbols[Group1]= [               g,               G,     plus ],
         symbols[Group2]= [     Cyrillic_pe,     Cyrillic_PE,     plus ],
         actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<AE12>,mods=Shift,clearmods=LevelThree) ]
+    };
+    key <AC01> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               a,               A,     underscore ],
+        symbols[Group2]= [     Cyrillic_ef,     Cyrillic_EF,     underscore ],
+        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<AE11>,mods=Shift,clearmods=LevelThree) ]
     };
 
 
