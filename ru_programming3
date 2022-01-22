@@ -6,13 +6,13 @@
 // │     │     │     │     │     │     │     │     │     │     │     │     │     ┃ ⌫       ┃
 // │ `   │ 1   │ 2   │ 3 # │ 4 $ │ 5 % │ 6   │ 7   │ 8   │ 9   │ 0   │ - _ │ + = ┃Backspace┃
 // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
-// ┃ Enter ┃     │    {│    }│  >  │  +  │ PgUp│ Home│ Up  │ End │ Del │     │     ┃ Enter ┃
+// ┃ (     ┃  0  │  ;  │Enter│  >  │  +  │ PgUp│ Home│ Up  │ End │ Del │     │     ┃ Enter ┃
 // ┃ Tab ↹ ┃  Q  │  W  │  E  │  R  │  T  │  Y  │  U  │  I  │  O  │  P  │     │     ┃   ⏎   ┃
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┲━━━━┛       ┃
-// ┃        ┃  _  │  1 (│  0 )│BkSpc│  !  │ PgDn│  )  │ Spc │  {  │Enter│BkSpc┃            ┃
+// ┃        ┃Space│  =  │Space│BkSpc│  !  │ PgDn│  )  │ Spc │  {  │Enter│BkSpc┃            ┃
 // ┃ L3  ⇧  ┃  A  │  S  │  D  │  F  │  G  │  H  │  J  │  K  │  L  │  ;: │ '"  ┃       Ins  ┃
 // ┣━━━━━━━━┻━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┲━━━┻━━━━━━━━━━━━┫
-// ┃          ┃     │ ^X [│ ^C ]│  <  │  -  │     │     │     │     │     ┃                ┃
+// ┃          ┃  1  │  ;  │Enter│  <  │  -  │     │     │     │     │     ┃                ┃
 // ┃  Shift ⇧ ┃  Z  │  X  │  C  │  V  │  B  │  N  │  M  │  ,< │  .> │  /? ┃     Shift ⇧    ┃
 // ┣━━━━━━━┳━━┻━━━━┳┷━━━━━┷┱────┴─────┴─────┴─────┴─────┴─────┴┲━━━━┷━━┳━━┻━━━━┳━━━━━━━┳━━━┛
 // ┃       ┃       ┃       ┃                                   ┃ ⇧     ┃       ┃       ┃
@@ -24,13 +24,13 @@
 // │     │     │     │     │     │     │     │     │     │     │     │     │     ┃ ⌫       ┃
 // │ `   │ 1   │ 2   │ 3 # │ 4 $ │ 5 % │ 6   │ 7   │ 8   │ 9   │ 0   │ - _ │ + = ┃Backspace┃
 // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
-// ┃ Enter ┃     │    {│    }│  >  │  +  │ PgUp│ Home│ Up  │ End │     │     │     ┃ Enter ┃
+// ┃       ┃  +  │  (  │  )  │  *  │     │ PgUp│ Home│ Up  │ End │     │     │     ┃ Enter ┃
 // ┃ Tab ↹ ┃  Q  │  W  │  E  │  R  │  T  │  Y  │  U  │  I  │  O  │  P  │     │     ┃   ⏎   ┃
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
-// ┃        ┃  _  │  1 (│  0 )│  =  │  !  │ PgDn│ Left│ Down│Right│BkSpc│ Del │     ┃ Ins  ┃
+// ┃        ┃  !  │  <  │  >  │  =  │  !  │ PgDn│ Left│ Down│Right│BkSpc│ Del │     ┃ Ins  ┃
 // ┃ L3  ⇧  ┃  A  │  S  │  D  │  F  │  G  │  H  │  J  │  K  │  L  │  ;: │ '"  │ \ | ┃      ┃
 // ┣━━━━━━━━┻━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┲━━━┷━━━━━┻━━━━━━┫
-// ┃          ┃     │ ^X [│ ^C ]│  <  │  -  │     │  ;  │  0  │  =  │Space┃                ┃
+// ┃          ┃  -  │  [  │ ]   │  /  │     │     │  ;  │  0  │  =  │Space┃                ┃
 // ┃  Shift ⇧ ┃  Z  │  X  │  C  │  V  │  B  │  N  │  M  │  ,< │  .> │  /? ┃     Shift ⇧    ┃
 // ┣━━━━━━━┳━━┻━━━━┳┷━━━━━┷┱────┴─────┴─────┴─────┴─────┴─────┴┲━━━━┷━━┳━━┻━━━━┳━━━━━━━┳━━━┛
 // ┃       ┃       ┃       ┃                                   ┃ ⇧     ┃       ┃       ┃
@@ -56,48 +56,77 @@
     //modifier_map Mod5 { <RALT> };
 
 
-    // _
-    key <AC01> {
-        type= "THREE_LEVEL",
-        symbols[Group1]= [               a,               A,     underscore ],
-        symbols[Group2]= [     Cyrillic_ef,     Cyrillic_EF,     underscore ],
-        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<AE11>,mods=Shift,clearmods=LevelThree) ]
+    // L3 + q => '0'; L5 + a => '+'
+    key <AD01> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1]= [               q,               Q,           0, 0,   plus ],
+        symbols[Group2]= [     Cyrillic_shorti,   Cyrillic_SHORTI ]
+    };
+    // L3 + w => ';'; L5 + w => '('
+    key <AD02> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1]= [               w,               W,           semicolon, semicolon, parenleft ],
+        symbols[Group2]= [     Cyrillic_tse,   Cyrillic_TSE ]
+    };
+    // L3 + e => Return; L5 + e => ')'
+    key <AD03> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1]= [               e,               E,           Return, Return, parenright ],
+        symbols[Group2]= [      Cyrillic_u,      Cyrillic_U ]
     };
 
-    // 1, 0 ()
+
+    // L3 + a => ' '; L5 + a => '!'
+    key <AC01> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1]= [               a,               A,     space, space,    exclam ],
+        symbols[Group2]= [     Cyrillic_ef,     Cyrillic_EF]
+    };
+    // L3 + s => '='; L5 + s => '<'
     key <AC02> {
         type= "EIGHT_LEVEL",
-        symbols[Group1]= [               s,               S,     1, 1,    parenleft, parenleft, 1, 1],
-        symbols[Group2]= [     Cyrillic_yeru,     Cyrillic_YERU, 1, 1,    parenleft, parenleft, 1, 1],
-        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<AE01>,clearmods=LevelThree) ]
+        symbols[Group1]= [               s,               S,     equal, equal,    less],
+        symbols[Group2]= [     Cyrillic_yeru,     Cyrillic_YERU, equal, equal,    less]
     };
+    // L3 + s => ' '; L5 + s => '>'
     key <AC03> {
         type= "EIGHT_LEVEL",
-        symbols[Group1]= [               d,               D,     0, 0,    parenright, parenright, 0, 0 ],
-        symbols[Group2]= [     Cyrillic_ve,     Cyrillic_VE,     0, 0,    parenright, parenright, 0, 0 ],
-        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<AE10>,clearmods=LevelThree) ]
+        symbols[Group1]= [               d,               D,     space, space,    greater ],
+        symbols[Group2]= [     Cyrillic_ve,     Cyrillic_VE,     space, space,    greater ]
+    };
+    // L3 + f => '0'  L5 + 'f' => '='
+    key <AC04> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1]= [               f,               F,     0,     0,        equal],
+        symbols[Group2]= [      Cyrillic_a,      Cyrillic_A]
     };
 
-    // []
+
+    // L3 + z => '1';  L5 + 'z' => '-'
+    key <AB01> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1]= [               z,               Z,     1,     1,        minus],
+        symbols[Group2]= [     Cyrillic_ya,     Cyrillic_YA]
+    };
+    // L3 + x => ';';  L5 + 'x' => '['
     key <AB02> {
         type= "EIGHT_LEVEL",
-        symbols[Group1]= [               x,               X, x, X,  bracketleft, bracketleft, x, X],
-        symbols[Group2]= [    Cyrillic_che,    Cyrillic_CHE],
-        actions[Group1]= [      NoAction(),      NoAction(), Redirect(key=<AB02>,mods=Control,clearmods=LevelThree) ]
+        symbols[Group1]= [               x,               X, semicolon, semicolon,  bracketleft],
+        symbols[Group2]= [    Cyrillic_che,    Cyrillic_CHE]
     };
+    // L3 + c => Return;  L5 + 'c' => ']'
     key <AB03> {
         type= "EIGHT_LEVEL",
-        symbols[Group1]= [               c,               C, c, C,  bracketright, bracketright, c, C],
-        symbols[Group2]= [     Cyrillic_es,     Cyrillic_ES],
-        actions[Group1]= [      NoAction(),      NoAction(), Redirect(key=<AB03>,mods=Control,clearmods=LevelThree) ]
+        symbols[Group1]= [               c,               C, Return, Return,        bracketright],
+        symbols[Group2]= [     Cyrillic_es,     Cyrillic_ES]
     };
 
 
-    // <>
+    // L5: */
     key <AD04> {
         type= "EIGHT_LEVEL",
         symbols[Group1]= [               r,               R,           greater, greater, greater],
-        symbols[Group2]= [     Cyrillic_ka,     Cyrillic_KA]
+        symbols[+Group2]= [     Cyrillic_ka,     Cyrillic_KA]
     };
     key <AB04> {
         type= "EIGHT_LEVEL",
@@ -106,18 +135,6 @@
         actions[Group1]= [      NoAction(),      NoAction(), Redirect(key=<AB04>,mods=Control,clearmods=LevelThree) ]
     };
 
-
-    // {}
-    key <AD02> {
-        type= "EIGHT_LEVEL",
-        symbols[Group1]= [               w,               W,           braceleft, braceleft, braceleft ],
-        symbols[Group2]= [     Cyrillic_tse,   Cyrillic_TSE ]
-    };
-    key <AD03> {
-        type= "EIGHT_LEVEL",
-        symbols[Group1]= [               e,               E,           braceright, braceright, braceright ],
-        symbols[Group2]= [      Cyrillic_u,      Cyrillic_U ]
-    };
 
 
     // +-
@@ -137,21 +154,15 @@
     // !
     key <AC05> {
         type= "EIGHT_LEVEL",
-        symbols[Group1]= [               g,               G,     exclaim, exclaim, exclaim],
+        symbols[Group1]= [               g,               G],
         symbols[Group2]= [     Cyrillic_pe,     Cyrillic_PE],
-        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<AE01>,mods=Shift,clearmods=LevelThree), NoAction(), Redirect(key=<AE01>,mods=Shift,clearmods=LevelThree)]
-    };
-
-    // =
-    key <AC04> {
-        type= "EIGHT_LEVEL",
-        symbols[Group1]= [               f,               F,     equal, equal, equal ],
-        symbols[Group2]= [     Cyrillic_a,     Cyrillic_A],
-        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<AE12>,clearmods=LevelThree) ]
+        actions[Group1]= [      NoAction(),      NoAction()]
     };
 
 
-    // "= 0"
+
+
+    // L3 + "/.,m" => "= 0;"
     key <AB08> {
         type= "EIGHT_LEVEL",
         symbols[Group1]= [           comma,            less,           comma, less,   0],
@@ -189,22 +200,43 @@
 //        symbols[Group2]= [     Cyrillic_shorti,   Cyrillic_SHORTI,     parenleft ]
 //    };
 
-    key <AB01> {
+
+
+
+    key <AD07> {
         type= "THREE_LEVEL",
-        symbols[Group1]= [               z,               Z],
-        symbols[Group2]= [     Cyrillic_ya,     Cyrillic_YA],
-        actions[Group1]= [      NoAction(),      NoAction(), Redirect(key=<AB01>,mods=Control,clearmods=LevelThree) ]
+        symbols[Group1]= [               u,               U,     parenright ],
+        symbols[Group2]= [    Cyrillic_ghe,    Cyrillic_GHE],
+        actions[Group1]= [      NoAction(),      NoAction() ]
+    };
+    key <AD09> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               o,               O,     braceleft ],
+        symbols[Group2]= [  Cyrillic_shcha,  Cyrillic_SHCHA],
+        actions[Group1]= [      NoAction(),      NoAction() ]
+    };
+    key <AD10> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               p,               P,      Return ],
+        symbols[Group2]= [     Cyrillic_ze,     Cyrillic_ZE],
+        actions[Group1]= [      NoAction(),      NoAction() ]
     };
 
+    key <AC10> {
+        type= "FOUR_LEVEL",
+        symbols[Group1]= [       semicolon,           colon,      Return, Return ],
+        symbols[Group2]= [    Cyrillic_zhe,    Cyrillic_ZHE,      Return, Return ],
+        actions[Group1]= [      NoAction(),      NkoAction(),     Redirect(key=<RTRN>,clearmods=LevelThree) ]
+    };
 
 
     // Arrows
 
     key <AD08> {
         type= "THREE_LEVEL",
-        symbols[Group1]= [               i,               I,     Up ],
-        symbols[Group2]= [    Cyrillic_sha,    Cyrillic_SHA,     Up ],
-        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<UP>,clearmods=LevelThree) ]
+        symbols[Group1]= [               i,               I,     space ],
+        symbols[Group2]= [    Cyrillic_sha,    Cyrillic_SHA ],
+        actions[Group1]= [      NoAction(),      NoAction() ]
     };
     key <AC07> {
         type= "EIGHT_LEVEL",
@@ -239,43 +271,32 @@
         actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<PGDN>,clearmods=LevelThree) ]
     };
 
-    key <AD07> {
-        type= "THREE_LEVEL",
-        symbols[Group1]= [               u,               U,     Home ],
-        symbols[Group2]= [    Cyrillic_ghe,    Cyrillic_GHE,     Home ],
-        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<HOME>,clearmods=LevelThree) ]
-    };
-    key <AD09> {
-        type= "THREE_LEVEL",
-        symbols[Group1]= [               o,               O,     End ],
-        symbols[Group2]= [  Cyrillic_shcha,  Cyrillic_SHCHA,     End ],
-        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<END>,clearmods=LevelThree) ]
-    };
-
     // Enter, Ins, Del, Backspace
+
+
+    // L3 + Tab = (
     key <TAB> {
         type= "THREE_LEVEL",
-        symbols[Group1]= [           Tab,      ISO_Left_Tab,     Return ],
-        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<RTRN>,clearmods=LevelThree) ]
+        symbols[Group1]= [             Tab,        ISO_Left_Tab, parenleft],
+        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<AE09>,clearmods=LevelThree,mods=Shift) ]
     };
-//    key <AD10> {
+
+
+//    key <TAB> {
 //        type= "THREE_LEVEL",
-//        symbols[Group1]= [               p,               P,     Delete ],
-//        symbols[Group2]= [     Cyrillic_ze,     Cyrillic_ZE,     Delete ],
-//        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<DELE>,clearmods=LevelThree) ]
+//        symbols[Group1]= [           Tab,      ISO_Left_Tab,     Return ],
+//        actions[Group1]= [      NoAction(),      NoAction(),     Redirect(key=<RTRN>,clearmods=LevelThree) ]
 //    };
-    key <AC10> {
-        type= "FOUR_LEVEL",
-        symbols[Group1]= [       semicolon,           colon,      Return, Return ],
-        symbols[Group2]= [    Cyrillic_zhe,    Cyrillic_ZHE,      Return, Return ],
-        actions[Group1]= [      NoAction(),      NkoAction(),     Redirect(key=<RTRN>,clearmods=LevelThree) ]
-    };
-//    key <AC11> {
-//        type= "THREE_LEVEL",
-//        symbols[Group1]= [       apostrophe,      quotedbl,      exclam ],
-//        symbols[Group2]= [        Cyrillic_e,    Cyrillic_E,     exclam ],
+
+    // L3 + ' = }
+    key <AC11> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [       apostrophe,      quotedbl,      braceright ],
+        symbols[Group2]= [        Cyrillic_e,    Cyrillic_E,     braceright ]
+//,
 //        actions[Group1]= [      NoAction(),      NoAction(),     NoAction(), Redirect(key=<INS>,clearmods=LevelThree) ]
-//    };
+    };
+
 //    key <AC11> {
 //        type= "EIGHT_LEVEL",
 //        symbols[Group1]= [       apostrophe,      quotedbl,      exclam, Return, BackSpace ],
